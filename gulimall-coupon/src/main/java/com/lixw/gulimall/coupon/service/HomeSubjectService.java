@@ -1,8 +1,8 @@
 package com.lixw.gulimall.coupon.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.xunqi.common.utils.PageUtils;
-import com.xunqi.gulimall.coupon.entity.HomeSubjectEntity;
+import com.lixw.gulimall.common.utils.PageUtils;
+import com.lixw.gulimall.coupon.entity.HomeSubjectEntity;
 
 import java.util.Map;
 

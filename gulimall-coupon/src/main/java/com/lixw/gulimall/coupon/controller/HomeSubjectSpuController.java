@@ -1,10 +1,11 @@
 package com.lixw.gulimall.coupon.controller;
 
-import com.xunqi.common.utils.PageUtils;
-import com.xunqi.common.utils.R;
-import com.xunqi.gulimall.coupon.entity.HomeSubjectSpuEntity;
-import com.xunqi.gulimall.coupon.service.HomeSubjectSpuService;
+import com.lixw.gulimall.common.utils.PageUtils;
+import com.lixw.gulimall.common.utils.R;
+import com.lixw.gulimall.coupon.entity.HomeSubjectSpuEntity;
+import com.lixw.gulimall.coupon.service.HomeSubjectSpuService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.Arrays;
 import java.util.Map;

@@ -1,10 +1,11 @@
 package com.lixw.gulimall.coupon.controller;
 
-import com.xunqi.common.utils.PageUtils;
-import com.xunqi.common.utils.R;
-import com.xunqi.gulimall.coupon.entity.SeckillSessionEntity;
-import com.xunqi.gulimall.coupon.service.SeckillSessionService;
+import com.lixw.gulimall.common.utils.PageUtils;
+import com.lixw.gulimall.common.utils.R;
+import com.lixw.gulimall.coupon.entity.SeckillSessionEntity;
+import com.lixw.gulimall.coupon.service.SeckillSessionService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.Arrays;
 import java.util.List;
@@ -34,7 +35,7 @@ public class SeckillSessionController {
 
         List<SeckillSessionEntity> seckillSessionEntities = seckillSessionService.getLates3DaySession();
 
-        return R.ok().setData(seckillSessionEntities);
+        return R.ok().put("Lates3DaySession", seckillSessionEntities);
     }
 
     /**

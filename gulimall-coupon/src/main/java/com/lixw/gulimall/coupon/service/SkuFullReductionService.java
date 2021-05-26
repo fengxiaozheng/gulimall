@@ -1,9 +1,9 @@
 package com.lixw.gulimall.coupon.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.xunqi.common.to.SkuReductionTo;
-import com.xunqi.common.utils.PageUtils;
-import com.xunqi.gulimall.coupon.entity.SkuFullReductionEntity;
+import com.lixw.gulimall.common.to.SkuReductionTo;
+import com.lixw.gulimall.common.utils.PageUtils;
+import com.lixw.gulimall.coupon.entity.SkuFullReductionEntity;
 
 import java.util.Map;
 

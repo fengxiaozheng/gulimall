@@ -23,6 +23,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="gulimall-coupon" options="-parameters" />
+      <module name="gulimall-product" options="-parameters" />
       <module name="renren-fast" options="-parameters" />
       <module name="renren-fast (1)" options="-parameters" />
       <module name="renren-generator" options="-parameters" />
